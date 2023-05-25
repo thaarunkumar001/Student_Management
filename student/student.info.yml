@@ -1,0 +1,5 @@
+name: "Student Management"
+description: "Module for Student Management"
+type: module
+core_version_requirement: ^8 || ^9
+

@@ -1,0 +1,15 @@
+student.my_module_list:
+  path: '/studentlist'
+  defaults:
+    _controller: '\Drupal\student\Controller\StudentController::studentList'
+    _title: 'Student list'
+  requirements:
+    _permission: 'access content'
+
+student.student_create:
+  path: '/studentlist'
+  defaults:
+    _form: '\Drupal\student\Form\EmployeeForm::CreateEmployee'
+    _title: 'Student list'
+  requirements:
+    _permission: 'access content'
