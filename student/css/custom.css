@@ -1,0 +1,65 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+input[type="text"],
+/* button {
+  margin-top: 5px;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+} */
+.btn {
+  background-color: red;
+  border: none;
+  color: white;
+  padding: 20;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.green {
+  background-color: #199319;
+}
+
+.red {
+  background-color: red;
+}
+
+
+.employee-details label {
+  display: block;
+  margin-top: 10px;
+}
+.employee-details input[type="text"] {
+  width: 100%;
+  padding: 5px;
+}
+.hike-percentage-container {
+  display: none;
+  margin-left: 10px;
+}
+.hike-field {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,9 @@
+student-style:
+  css:
+    theme:
+      css/custom.css: {}
+  js:
+    js/student-form.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal

@@ -1,0 +1,15 @@
+displaystudent.my_module_list:
+  path: '/displaystudentlist'
+  defaults:
+    _controller: '\Drupal\displaystudent\Controller\StudentController::displaystudentList'
+    _title: 'Student list'
+  requirements:
+    _permission: 'access content'
+
+# student.student_create:
+#   path: '/createstudent'
+#   defaults:
+#     _form: '\Drupal\student\Form\CreateSudent::CreateStudent'
+#     _title: 'Student list'
+#   requirements:
+#     _permission: 'access content'

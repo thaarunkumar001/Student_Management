@@ -1,0 +1,17 @@
+<?php
+
+function student_theme($existing, $type, $theme, $path){
+    return [
+        'studentlist' => [
+            'variables' => [
+                'title' => '',
+                'details' => [],
+                'absentstudent' => [],
+                'attdictionary' => [],
+                'ids' => [],
+                'atts' => [],
+                'form' => []
+            ]
+        ]
+    ];
+}

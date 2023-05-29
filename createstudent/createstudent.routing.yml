@@ -1,0 +1,15 @@
+createstudent.my_module_list:
+  path: '/createstudent'
+  defaults:
+    _controller: '\Drupal\createstudent\Controller\addStudentController::createstudentList'
+    _title: 'Add Student'
+  requirements:
+    _permission: 'access content'
+
+# student.student_create:
+#   path: '/createstudent'
+#   defaults:
+#     _form: '\Drupal\student\Form\CreateSudent::CreateStudent'
+#     _title: 'Student list'
+#   requirements:
+#     _permission: 'access content'

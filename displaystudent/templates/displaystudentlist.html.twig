@@ -1,0 +1,10 @@
+{{ attach_library('displaystudent/student-style') }}
+
+<h4>Number of students present: {{ presentcount }}</h4>
+<h4>Number of students absent: {{ absentcount }}</h4>
+<div>
+  <h4>Absentee List</h4>
+  {% for student in absentstudent %}
+    <p>{{ student.sname }}</p>
+  {% endfor %}
+</div>

@@ -1,0 +1,27 @@
+{{ attach_library( 'student/student-style' ) }}
+
+<table>
+  <thead>
+    <tr>
+      <th>Roll No</th>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Phone Number</th>
+      <th>Attendance</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for student in details %}
+    
+    <tr>
+        <td>{{ student.rollNo }}</td>
+        <td>{{ student.sname }}</td>
+        <td>{{ student.age }}</td>
+        <td>{{ student.phoneNo }}</td>
+        <td> {{ form[student.rollNo] }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+

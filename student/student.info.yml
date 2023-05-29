@@ -1,0 +1,6 @@
+name:  student management
+type: module
+description: 'Student management custom module'
+package: Custom
+version: 1.0
+core_version_requirement: ^8 || ^9

@@ -1,0 +1,7 @@
+student.studentattandance:
+  path: '/attendance'
+  defaults:
+    _controller: 'Drupal\student\Controller\StudentAttendanceController::studentList'
+    _title: 'Student Attendance'
+  requirements:
+    _permission: 'access content'
