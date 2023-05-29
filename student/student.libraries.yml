@@ -1,6 +1,0 @@
-student-style:
-  css: 
-    theme: 
-      css/custom.css: {}
-  js:
-    js/custom.js: {}
